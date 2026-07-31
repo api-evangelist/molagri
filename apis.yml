@@ -1,7 +1,29 @@
 aid: molagri
 name: Molagri
-description: Molagri is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Molagri is a Toronto-based biotechnology startup building next-generation
+  biopesticides for agriculture. The company designs pest-control molecules that
+  target specific molecular pathways unique to pest insects while preserving
+  pollinators and other beneficial organisms, and uses predictive modeling to
+  stay ahead of the evolution of pest resistance. Molagri emphasizes higher
+  efficacy and biobased production to reduce emissions across both manufacturing
+  and field application. Founded in 2026 by University of Toronto PhD
+  biochemists Zaky Hassan and Min Jin, the company was part of the Y Combinator
+  Summer 2026 batch. It was surfaced as a Y Combinator portfolio company and
+  added to the API Evangelist network for tracking; as an early-stage biotech it
+  currently publishes no public developer API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/molagri/refs/heads/main/apis.yml
 url: https://raw.githubusercontent.com/api-evangelist/molagri/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
+x-location: Toronto, Canada
+x-founded: '2026'
+x-yc-batch: Summer 2026
+x-founders:
+- Zaky Hassan
+- Min Jin
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Agriculture
+- AgTech
+- Biopesticides
+- Pest Control
+- Sustainability
+- Y Combinator
+common:
+- type: DomainSecurity
+  url: security/molagri-domain-security.yml
+- type: Website
+  url: https://molagri.com
 apis: []
 maintainers:
 - FN: Kin Lane
