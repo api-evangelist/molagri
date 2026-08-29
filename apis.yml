@@ -12,6 +12,17 @@ description: >-
   Summer 2026 batch. It was surfaced as a Y Combinator portfolio company and
   added to the API Evangelist network for tracking; as an early-stage biotech it
   currently publishes no public developer API surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
